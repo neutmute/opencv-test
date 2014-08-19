@@ -9,6 +9,7 @@
 #include "Test4ImageWrite.h"
 #include "Test5VideoWrite.h"
 #include "Test20DetectRed.h"
+#include "Test22TrackRed.h"
 
 using namespace cv;
 using namespace std;
@@ -31,8 +32,11 @@ int main(int argc, const char** argv)
 	Test5VideoWrite videoWrite;
 	videoWrite.Run();
 
-	*/
-
 	Test20DetectRed detectRed;
 	detectRed.Run();
+
+	*/
+
+	Test22TrackRed trackRed;
+	trackRed.Run();
 }
