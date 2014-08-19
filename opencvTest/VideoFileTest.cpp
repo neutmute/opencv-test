@@ -1,8 +1,5 @@
-// opencvTest.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
-
+#include "VideoFileTest.h"
 
 #include "opencv2/highgui/highgui.hpp"
 #include <iostream>
@@ -10,31 +7,12 @@
 using namespace cv;
 using namespace std;
 
-int main(int argc, const char** argv)
+VideoFileTest::VideoFileTest()
 {
-	/*
-	LOAD AN IMAGE
+}
 
-	string filename = "mypic.JPG";
-	Mat img = imread(filename, CV_LOAD_IMAGE_UNCHANGED); //read the image data in the file "MyPic.JPG" and store it in 'img'
-
-	if (img.empty()) //check whether the image is loaded or not
-	{
-
-		cout << "Error : Image cannot be loaded..!!" + filename << endl;
-		//system("pause"); //wait for a key press
-		return -1;
-	}
-
-	namedWindow("MyWindow", CV_WINDOW_AUTOSIZE); //create a window with the name "MyWindow"
-	imshow("MyWindow", img); //display the image which is stored in the 'img' in the "MyWindow" window
-
-	waitKey(0); //wait infinite time for a keypress
-
-	destroyWindow("MyWindow"); //destroy the window with the name, "MyWindow"
-
-	return 0;
-	*/
+int VideoFileTest::Run()
+{
 
 	VideoCapture cap("D:/Data/Documents/Pictures/!Temp/20140816_MarblePump/LegoMarblePump2_1.mp4"); // open the video file for reading
 
@@ -74,4 +52,8 @@ int main(int argc, const char** argv)
 	}
 
 	return 0;
+}
+
+VideoFileTest::~VideoFileTest()
+{
 }
