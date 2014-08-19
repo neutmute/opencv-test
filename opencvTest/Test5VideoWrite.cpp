@@ -30,7 +30,7 @@ int Test5VideoWrite::Run()
 
 	Size frameSize(static_cast<int>(dWidth), static_cast<int>(dHeight));
 
-	VideoWriter oVideoWriter("D:/MyVideo.avi", CV_FOURCC('P', 'I', 'M', '1'), 20, frameSize, true); //initialize the VideoWriter object 
+	VideoWriter oVideoWriter("D:/MyVideo.avi", CV_FOURCC('M', 'P', '4', '2'), 23, frameSize, true); //initialize the VideoWriter object 
 
 	if (!oVideoWriter.isOpened()) //if not initialize the VideoWriter successfully, exit the program
 	{
