@@ -154,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="ImageLoadTest.h" />
     <ClInclude Include="Test4ImageWrite.h" />
+    <ClInclude Include="Test5VideoWrite.h" />
     <ClInclude Include="TestBase.h" />
     <ClInclude Include="VideoFileTest.h" />
     <ClInclude Include="stdafx.h" />
@@ -163,6 +164,7 @@
   <ItemGroup>
     <ClCompile Include="ImageLoadTest.cpp" />
     <ClCompile Include="Test4ImageWrite.cpp" />
+    <ClCompile Include="Test5VideoWrite.cpp" />
     <ClCompile Include="TestBase.cpp" />
     <ClCompile Include="VideoFileTest.cpp" />
     <ClCompile Include="main.cpp" />

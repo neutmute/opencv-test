@@ -7,6 +7,7 @@
 #include "VideoFileTest.h"
 #include "WebcamTest.cpp"
 #include "Test4ImageWrite.h"
+#include "Test5VideoWrite.h"
 
 using namespace cv;
 using namespace std;
@@ -22,8 +23,10 @@ int main(int argc, const char** argv)
 	
 	WebcamTest webcamTest;
 	return webcamTest.Run();
-	*/
 
 	Test4ImageWrite imageWrite;
 	imageWrite.Run();
+	*/
+	Test5VideoWrite videoWrite;
+	videoWrite.Run();
 }
