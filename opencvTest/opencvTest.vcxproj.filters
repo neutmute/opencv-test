@@ -30,6 +30,12 @@
     <ClInclude Include="WebcamTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Test4ImageWrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +51,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="WebcamTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test4ImageWrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
